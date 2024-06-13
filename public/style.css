@@ -1,0 +1,336 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header2 {
+  background-image: url("./assets/img/NZLANDSCAPE.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+.header2 nav {
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  gap: 15px;
+  padding: 20px;
+}
+.header2 nav a {
+  text-decoration: none;
+  color: black;
+}
+.header2 nav img {
+  width: 3%;
+}
+
+.header1 {
+  background-image: url("./assets/img/NZLANDSCAPE.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 850px;
+}
+.header1 nav {
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  gap: 15px;
+  padding: 20px;
+}
+.header1 nav a {
+  text-decoration: none;
+  color: black;
+}
+.header1 nav img {
+  width: 3%;
+}
+
+.header {
+  background-color: #D29FA8;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  gap: 15px;
+  padding: 20px;
+}
+.header nav a {
+  text-decoration: none;
+  color: black;
+}
+.header nav img {
+  width: 3%;
+}
+
+footer {
+  background-color: #D29FA8;
+  padding: 20px;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+footer nav a {
+  text-decoration: none;
+  color: #5e7268;
+  font-size: 1.4em;
+}
+
+.div_sej {
+  border: 1px #D29FA8 solid;
+  border-radius: 10px;
+  width: 60%;
+  padding: 10px;
+  margin: 50px auto;
+}
+.div_sej p {
+  text-align: center;
+}
+
+.formRegister {
+  background-color: white;
+  width: 20%;
+  padding: 50px;
+  margin: 200px auto;
+  border-radius: 10px;
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalogue {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+.catalogue .banniere {
+  margin: 20px 0px 50px 0px;
+  height: 300px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.catalogue .flex_cata {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  justify-content: space-between;
+}
+.catalogue .flex_cata div {
+  border: 2px solid #D29FA8;
+  border-radius: 5px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.catalogue .flex_cata div img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.catalogue .flex_cata div a {
+  display: block;
+  margin: auto;
+}
+.catalogue .flex_cata div a button {
+  background-color: white;
+  border: 2px solid #D29FA8;
+  border-radius: 10px;
+  padding: 10px 40px;
+  color: #5aabab;
+  margin-bottom: 10px;
+}
+
+.flex_reservation {
+  height: 250px;
+  display: flex;
+  gap: 30px;
+}
+.flex_reservation .reservation_travel {
+  border: 2px solid #D29FA8;
+  border-radius: 5px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.flex_reservation .reservation_travel img {
+  width: 100%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.flex_reservation .reservation_travel p {
+  background-color: #edc1bb;
+  padding: 10px;
+}
+.flex_reservation form {
+  border: 2px solid #D29FA8;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_reservation form h2 {
+  display: flex;
+  align-items: center;
+  background-color: #edc1bb;
+  padding: 10px;
+}
+.flex_reservation form h2 img {
+  width: 5%;
+}
+.flex_reservation form input, .flex_reservation form button {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #D29FA8;
+  border-radius: 5px;
+}
+.flex_reservation form div {
+  display: flex;
+  width: 93%;
+}
+
+.flexoubebou {
+  margin: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.flexoubebou img {
+  width: 250px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 2px solid #DEE1E4;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.noflex_reservation {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.noflex_reservation table {
+  width: 100%;
+}
+.noflex_reservation table img {
+  width: 2%;
+}
+.noflex_reservation table th {
+  display: flex;
+  text-align: center;
+  justify-content: baseline;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 5px;
+  background-color: #edc1bb;
+  width: 100%;
+}
+.noflex_reservation table tbody {
+  display: flex;
+  flex-direction: column;
+}
+.noflex_reservation table tbody td {
+  margin: 10px;
+  width: 100px;
+  padding: 10px;
+}
+.noflex_reservation table tbody .jaune {
+  background-color: rgb(253, 253, 113);
+}
+.noflex_reservation table tbody .vert {
+  background-color: rgb(161, 255, 161);
+}
+.noflex_reservation table tbody .grand {
+  width: 40%;
+}
+
+.catalogue h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px;
+}
+
+.search {
+  width: 130px;
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+.search:focus {
+  width: 40%;
+  outline: none;
+}
+
+.search::-moz-placeholder {
+  color: black;
+}
+
+.search::placeholder {
+  color: black;
+}
+
+.admin_cnt {
+  padding: 100px;
+}
+.admin_cnt .del form {
+  display: flex;
+}
+.admin_cnt h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+.admin_cnt img {
+  width: 80%;
+  border-radius: 10px;
+}
+.admin_cnt .ajouter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 500px;
+}
+.admin_cnt .ajouter input, .admin_cnt .ajouter select {
+  background-color: transparent;
+  border: 2px solid #D29FA8;
+  border-radius: 10px;
+  padding: 10px;
+}
+.admin_cnt .ajouter input::-moz-placeholder {
+  color: black;
+}
+.admin_cnt .ajouter input::placeholder {
+  color: black;
+}
+.admin_cnt .ajouter button {
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid #D29FA8;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+}/*# sourceMappingURL=style.css.map */
